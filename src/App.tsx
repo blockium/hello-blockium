@@ -5,7 +5,7 @@ export default function App() {
   // The web app config should be obtained from your Firebase project:
   const firebaseConfig = {
     apiKey: "AIzaSyC-uQwpo2NV99ATkKuKfyTEsRUDGgp-0Kk",
-    authDomain: "blockiumjs.firebaseapp.com",
+    authDomain: "hello.blockium.dev",
     projectId: "blockiumjs",
     storageBucket: "blockiumjs.appspot.com",
     messagingSenderId: "61328530945",
