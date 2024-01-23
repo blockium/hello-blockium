@@ -54,13 +54,13 @@ export default function App() {
   // 1. Configure Authentication
   // The web app config should be obtained from your Firebase project:
   const firebaseConfig = {
-    apiKey: "AIzaSyC-uQwpo2NV99ATkKuKfyTEsRUDGgp-0Kk",
-    authDomain: "blockiumjs.firebaseapp.com",
-    projectId: "blockiumjs",
-    storageBucket: "blockiumjs.appspot.com",
-    messagingSenderId: "61328530945",
-    appId: "1:61328530945:web:c5c5592a3a3f019d222a00",
-    localEmulator: false, // As we are not using the Firebase emulator
+    apiKey: "[API_KEY]",
+    authDomain: "[AUTH_DOMAIN]",
+    projectId: "[PROJECT_ID]",
+    storageBucket: "[STORAGE_BUCKET]",
+    messagingSenderId: "[MESSAGING_SENDER_ID]",
+    appId: "[APP_ID]",
+    localEmulator: false, // If not using the Firebase emulator
   };
   const authConfig: AuthConfig = {
     config: firebaseConfig,

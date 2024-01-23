@@ -10,7 +10,7 @@ export default function App() {
     storageBucket: "blockiumjs.appspot.com",
     messagingSenderId: "61328530945",
     appId: "1:61328530945:web:c5c5592a3a3f019d222a00",
-    localEmulator: false, // As we are not using the Firebase emulator
+    localEmulator: false, // If not using the Firebase emulator
   };
   const authConfig: AuthConfig = {
     config: firebaseConfig,
